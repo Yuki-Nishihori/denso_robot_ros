@@ -76,7 +76,7 @@ HRESULT DensoRobotHW::Initialize()
   for (int i = 0; i < m_robJoints; i++)
   {
     std::stringstream ss;
-    ss << "joint_" << i + 1;
+    ss << "cobotta_pro_900_joint_" << i + 1;
 
     if (!nh.getParam(ss.str(), m_type[i]))
     {
