@@ -34,5 +34,5 @@ arm:
     - TRRTkConfigDefault
     - PRMkConfigDefault
     - PRMstarkConfigDefault
-  projection_evaluator: joints(joint_1,joint_2)
+  projection_evaluator: joints(cobotta_pro_900_joint_1, cobotta_pro_900_joint_2)
   longest_valid_segment_fraction: 0.05
